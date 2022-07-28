@@ -34,6 +34,16 @@ export function Post() {
           <a href='#'>#maxime</a>
         </p>
       </div>
+
+      <form className={styles.commentsForm}>
+        <strong>Deixe seu feedback</strong>
+
+        <textarea placeholder='Deixe um comentário' />
+
+        <footer>
+          <button type='submit'>Publicar</button>
+        </footer>
+      </form>
     </article>
   );
 }
